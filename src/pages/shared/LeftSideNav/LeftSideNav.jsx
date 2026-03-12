@@ -1,8 +1,9 @@
+import CategoryList from "./LeftSideComponent/categoryList";
 
 const LeftSideNav = () => {
     return (
         <div>
-            <h2>Left Side Nav</h2>
+            <CategoryList />
         </div>
     );
 };

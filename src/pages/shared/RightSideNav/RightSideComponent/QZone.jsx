@@ -7,19 +7,19 @@ import qZone3 from "../../../../assets/qZone3.png"
 const QZone = () => {
     return (
         <div>
-                    <h3 className='text-xl mt-7'>QZone</h3>
-                    <div className='mt-4 flex flex-col gap-y-5 '>
-                        <a>
-                            <img src={qZone1} alt="" />
-                        </a>
-                        <a>
-                            <img src={qZone2} alt="" />
-                        </a>
-                        <a>
-                            <img src={qZone3} alt="" />
-                        </a>
-                    </div>
+            <h3 className='text-xl mt-7'>QZone</h3>
+            <div className='mt-4 flex flex-col gap-y-5 '>
+                <div className="hover:scale-102 duration-500">
+                    <img src={qZone1} alt="" />
                 </div>
+                <div className="hover:scale-102 duration-500">
+                    <img src={qZone2} alt="" />
+                </div>
+                <div className="hover:scale-102 duration-500">
+                    <img src={qZone3} alt="" />
+                </div>
+            </div>
+        </div>
     );
 };
 
